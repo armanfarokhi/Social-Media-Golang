@@ -1,0 +1,27 @@
+# Go binaries
+*.exe
+*.test
+*.out
+
+# Dependency directories
+/vendor/
+
+# Build output
+/build/
+
+# Go workspace
+go.work
+go.work.sum
+
+# IDE folders
+.idea/
+.vscode/
+*.suo
+*.swp
+*.swo
+
+# Environment files
+.env
+
+# Docker
+docker-compose.override.yml
